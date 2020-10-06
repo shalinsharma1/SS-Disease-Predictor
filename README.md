@@ -1,4 +1,4 @@
-# Multiple Disease Predictor
+# SS Disease Predictor
 ## About
 This webapp was developed using Flask Web Framework and was deployed on Heroku server. The models used to predict the diseases were trained on large Datasets. All the links for datasets used for model creation are mentioned below in this readme. The webapp can predict following Diseases:
 * Diabetes
@@ -19,7 +19,7 @@ Kidney Disease | Machine Learning Model | 99%
 Liver Disease | Machine Learning Model | 78%
 Malaria | Deep Learning Model(CNN) | 96%
 Pneumonia | Deep Learning Model(CNN) | 95%
-```
+
 ## 
 ## Dataset Links
 All the datasets were used from kaggle.
