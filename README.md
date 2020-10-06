@@ -31,4 +31,8 @@ All the datasets were used from kaggle.
 * [Malaria Dataset](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria)
 * [Pneumonia Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 
+## 
+## App Link
+link:- https://ss-disease-predictor.herokuapp.com/
+
 
