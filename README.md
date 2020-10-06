@@ -1,6 +1,6 @@
 # Multiple Disease Predictor
 ## About
-This webapp was developed using Flask Web Framework and was deployed on Heroku server. The models used to predict the diseases were trained on large Datasets. All the links for datasets and the python notebooks used for model creation are mentioned below in this readme. The webapp can predict following Diseases:
+This webapp was developed using Flask Web Framework and was deployed on Heroku server. The models used to predict the diseases were trained on large Datasets. All the links for datasets used for model creation are mentioned below in this readme. The webapp can predict following Diseases:
 * Diabetes
 * Breast Cancer
 * Heart Disease
@@ -19,21 +19,6 @@ Kidney Disease | Machine Learning Model | 99%
 Liver Disease | Machine Learning Model | 78%
 Malaria | Deep Learning Model(CNN) | 96%
 Pneumonia | Deep Learning Model(CNN) | 95%
-
-## NOTE
-==> You can access the website live at: https://kvg-disease-predictor.herokuapp.com <br>
-==> Python version 3.6.8 was used for the whole project.<br>
-==> You can find all the models in [models](https://github.com/venugopalkadamba/Multi_Disease_Predictor/tree/master/models) folder.
-
-## Steps to run the WebApp in local Computer
-**Step-1:** Download the files in the repository.<br>
-**Step-2:** Get into the downloaded folder, open command prompt in that directory and install all the dependencies using following command<br>
-```python
-pip install -r requirements.txt
-```
-**Step-3:** After successfull installation of all the dependencies, run the following command<br>
-```python
-python app.py
 ```
 ## 
 ## Dataset Links
@@ -46,17 +31,4 @@ All the datasets were used from kaggle.
 * [Malaria Dataset](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria)
 * [Pneumonia Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 
-## Links for Python Notebooks used for model creation
-* [Diabetes Notebook](https://github.com/venugopalkadamba/Multi_Disease_Predictor/blob/master/Python%20Notebooks/Diabetes_Prediction.ipynb)
-* [Breast Cancer Notebook](https://github.com/venugopalkadamba/Multi_Disease_Predictor/blob/master/Python%20Notebooks/Cancer_Prediction.ipynb)
-* [Heart Disease Notebook](https://github.com/venugopalkadamba/Multi_Disease_Predictor/blob/master/Python%20Notebooks/Heart_Disease_Prediction.ipynb)
-* [Kidney Disease Notebook](https://github.com/venugopalkadamba/Multi_Disease_Predictor/blob/master/Python%20Notebooks/Kidney_Disease_Prediction.ipynb)
-* [Liver Disease Notebook](https://github.com/venugopalkadamba/Multi_Disease_Predictor/blob/master/Python%20Notebooks/Liver_Disease_Prediction.ipynb)
-* [Malaria Notebook](https://www.kaggle.com/venugopalkadamba/malaria?scriptVersionId=38537287)
-* [Pneumonia Notebook](https://www.kaggle.com/venugopalkadamba/pneumonia-prediction)
 
-## Technologies Used
-![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/330px-Scikit_learn_logo_small.svg.png)
-![alt text](https://cdn.analyticsvidhya.com/wp-content/uploads/2017/06/08075935/keras-tensorflow-logo.jpg)
-![alt text](https://i1.wp.com/www.corellis.eu/wp-content/uploads/2018/09/logo-flask.png)
-![alt text](https://redislabs.com/wp-content/uploads/2016/11/logo-square-heroku.png)
